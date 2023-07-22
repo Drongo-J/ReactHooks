@@ -1,23 +1,63 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Toolbar from './Toolbar';
+import Form from './Form';
+import Gallery from './Gallery';
+import Person from './Person';
+
+
+// function App() {
+//   const [score, setScore] = useState(0);
+
+//   function increment(val){
+//     setScore(score + val);
+//   }
+
+//   return (
+//     <div>
+//       {/* <Toolbar onPlayMovie={() => alert("Playing")}
+//                onUploadImage={() => alert("Uploading successfully")}>
+//       </Toolbar> */}
+
+
+//       <button onClick={() => increment(1)}>+1</button>
+//       <button onClick={() => {
+//         increment(3);
+//       }}>+3</button>
+
+//       <h1>Score: {score}</h1>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+// function App() {
+//   return (
+//     <div>
+//       {/* <Form></Form> */}
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+// function App() {
+//   return (
+//     <div>
+//       <Gallery></Gallery>
+//     </div>
+//   );
+// }
+
+// export default App;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Person></Person>
     </div>
   );
 }
