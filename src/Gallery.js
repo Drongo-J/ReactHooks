@@ -22,7 +22,7 @@ export default function Gallery() {
             setIndex(0);
         }
     }
-
+    
   return (
     <div>
       <section onClick={handleNextClick}>
